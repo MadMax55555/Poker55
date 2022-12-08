@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.playerCard {
+    height: 20%;
+    margin: 10px;
+    padding: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 25px;
+    border-color:rgb(204, 114, 182);
+    background-color: rgb(120, 128, 204);
+}
+.playerName {
+    position: top;
+    font-size: large;
+    margin: 55px;
+    padding-left: 10px;
+    border-bottom: solid 5px gray;
+}
+.playerCredit {
+    margin: 55px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(70, 111, 245);
+    margin: 50px 0px;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(185, 199, 241);
+    margin: 50px 0px;
+}
+
+.Form {
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgb(21, 35, 77);
+    margin: 80px 0px;
+    padding: 10%;
 }
