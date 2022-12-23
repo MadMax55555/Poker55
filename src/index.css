@@ -1,44 +1,16 @@
-.playerCard {
-    height: 20%;
-    margin: 10px;
-    padding: auto;
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 25px;
-    border-color:rgb(204, 114, 182);
-    background-color: rgb(120, 128, 204);
-}
-.playerName {
-    position: top;
-    font-size: large;
-    margin: 55px;
-    padding-left: 10px;
-    border-bottom: solid 5px gray;
-}
-.playerCredit {
-    margin: 55px;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #02353C;
 }
 
-button {
-    height: 50px;
-    width: 100px;
-    border-radius: 10px;
-    background-color: rgb(70, 111, 245);
-    margin: 50px 0px;
-}
-
-input {
-    height: 50px;
-    width: 300px;
-    border-radius: 10px;
-    background-color: rgb(185, 199, 241);
-    margin: 50px 0px;
-}
-
-.Form {
-    height: 500px;
-    border-radius: 20px;
-    background-color: rgb(21, 35, 77);
-    margin: 80px 0px;
-    padding: 10%;
+@layer components{
+    .btn{
+        @apply bg-gradient-to-br from-vert to-vert-bleu hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-vert rounded-lg px-5 py-2.5 mr-2 mb-2 flex items-center justify-center text-bleu-marine text-sm md:text-lg;
+    }
+    .input{
+        @apply bg-vert-bleu border border-bleu text-sm rounded-lg focus:ring-bleu focus:border-bleu w-full p-2.5;
+    }
 }
